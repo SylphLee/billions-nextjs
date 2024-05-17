@@ -16,9 +16,8 @@ export default async function HomePage() {
   const billion = await getBillions();
   return (
     <div className={styles.container}>
-      {billion.map((billion) => (
+      {billion.map((billion: { id: string; squareImage: string; name: string; netWorth: number; industries: string; }) => (
         <Billion
-          key={billion.id}
           id={billion.id}
           squareImage={billion.squareImage}
           name={billion.name}
