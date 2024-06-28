@@ -7,6 +7,30 @@
   padding : 25px 25px 25px 25px;
 }
 
+.container_info {
+  display: grid;
+  background-color: #404040;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;  
+  margin: 0 auto;
+  padding : 25px 25px 25px 25px;
+}
+
+.container_info_card {
+  padding: 15px 15px 15px 15px;
+  border: 1px solid;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.container_info_title {
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  padding-left: 25px;
+}
+
+
 .poster {
   border-radius: 20px;
   max-width: 70%;
